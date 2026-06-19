@@ -1,6 +1,6 @@
 # Vercel Deployment Guide
 
-Deploy each app as a **separate Vercel project** (simplest for DSA demo links).
+Deploy each app as a **separate Vercel project** (one repo, three roots).
 
 ## Prerequisites
 
@@ -31,12 +31,12 @@ GEMINI_API_KEY=your_key
 GROQ_API_KEY=your_key
 ```
 
-**Demo URL after deploy:** `https://your-growth-app.vercel.app/youthmentor`  
-**Safety demo:** `https://your-growth-app.vercel.app/youthmentor/safety-demo`
+**Live URL after deploy:** `https://your-growth-app.vercel.app/youthmentor`  
+**Safety walkthrough:** `https://your-growth-app.vercel.app/youthmentor/safety-demo`
 
 ### Cold start note
 
-First API call after idle may add 1–3 s. LLM calls add 2–10 s. For interviews, use **mock mode** or local `localhost`.
+First API call after idle may add 1–3 s. LLM calls add 2–10 s. For stable demos, use **mock mode** or local `localhost`.
 
 ## 2. EduLens (edutech)
 
@@ -48,7 +48,7 @@ First API call after idle may add 1–3 s. LLM calls add 2–10 s. For interview
 EDULENS_AI_MODE=mock
 ```
 
-Demo: `https://your-edutech-app.vercel.app/edulens`
+Live: `https://your-edutech-app.vercel.app/edulens`
 
 ## 3. CampusBot (robot)
 
@@ -58,7 +58,7 @@ Demo: `https://your-edutech-app.vercel.app/edulens`
 
 No API keys required — fully client-side simulation.
 
-Demo: `https://your-robot-app.vercel.app/campusbot`
+Live: `https://your-robot-app.vercel.app/campusbot`
 
 ## Deploy steps (each project)
 
@@ -66,19 +66,19 @@ Demo: `https://your-robot-app.vercel.app/campusbot`
 2. Vercel → **Add New Project** → Import repo.  
 3. Set **Root Directory** to `growth`, `edutech`, or `robot`.  
 4. Add env vars → Deploy.  
-5. Test safety demo and one normal demo case.
+5. Smoke-test safety walkthrough and one normal demo case.
 
-## Interview strategy
+## Demo reliability
 
 | Priority | Method |
 |----------|--------|
 | 1 | Local `npm run dev` on laptop |
 | 2 | Vercel with `EDULENS_AI_MODE=mock` |
-| 3 | Pre-recorded video |
+| 3 | Pre-recorded walkthrough video |
 
 ## Custom domains (optional)
 
-Vercel free tier supports `*.vercel.app`. Custom domain (e.g. `neurospark.sg`) is optional for DSA.
+Vercel free tier supports `*.vercel.app`. Custom domain (e.g. `neurospark.sg`) is optional.
 
 ## Troubleshooting
 
@@ -86,7 +86,7 @@ Vercel free tier supports `*.vercel.app`. Custom domain (e.g. `neurospark.sg`) i
 |-------|-----|
 | Build fails | Run `npm run build` locally in that folder first |
 | API 500 | Check env vars; fall back to `mock` |
-| Slow first load | Normal for serverless cold start; click once before interview |
+| Slow first load | Normal for serverless cold start; warm up once before a live demo |
 | 404 on routes | Ensure Next.js app router; no `output: 'export'` |
 
 ## Security

@@ -72,9 +72,10 @@ export const en: Dictionary = {
     ],
     demoHint:
       "After loading a demo, continue from Check-in → Reflection to see the full flow.",
-    safetyDemoLink: "Safety demo (DSA highlight)",
+    safetyDemoLink: "Safety guardrail demo",
   },
   safetyDemo: {
+    badge: "Safety engineering",
     title: "Safety guardrail demo",
     subtitle:
       "Shows how YouthMentor blocks normal coaching when high-risk language is detected.",

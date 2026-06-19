@@ -14,7 +14,7 @@ const en = {
   },
   home: {
     tagline:
-      "School service robot navigation and task execution simulator. Plan paths with A*, avoid obstacles and restricted zones, re-plan around dynamic students, and evaluate mission metrics for DSA / Robotics portfolios.",
+      "School service robot navigation and task execution simulator. Plan paths with A*, avoid obstacles and restricted zones, re-plan around dynamic students, and evaluate mission metrics.",
     launchSimulator: "Launch Simulator",
     launchSimulatorDesc:
       "Run live navigation with map, controls, and decision log.",
@@ -400,7 +400,7 @@ const zh = {
   },
   home: {
     tagline:
-      "校园服务机器人导航与任务执行仿真系统。使用 A* 规划路径，避开障碍与禁区，绕行动态学生，并评估任务指标，适用于 DSA 计算机 / 机器人 / 科技作品集。",
+      "校园服务机器人导航与任务执行仿真系统。使用 A* 规划路径，避开障碍与禁区，绕行动态学生，并评估任务指标。",
     launchSimulator: "启动仿真器",
     launchSimulatorDesc: "实时运行导航、地图、控制面板与决策日志。",
     demoScenarios: "演示场景",

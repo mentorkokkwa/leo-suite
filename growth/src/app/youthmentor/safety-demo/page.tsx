@@ -7,7 +7,7 @@ import { useLocale } from "@/context/LocaleContext";
 import { useYouthMentor } from "@/context/YouthMentorContext";
 
 /**
- * Guided high-risk safety demo for DSA interviews and portfolio walkthroughs.
+ * Guided high-risk safety walkthrough — layered guardrail behaviour.
  */
 export default function SafetyDemoPage() {
   const router = useRouter();
@@ -26,7 +26,7 @@ export default function SafetyDemoPage() {
 
       <section className="rounded-3xl bg-rose-50 p-6 ring-1 ring-rose-200">
         <p className="text-xs font-semibold uppercase tracking-wide text-rose-700">
-          DSA · Portfolio highlight
+          {t.safetyDemo.badge}
         </p>
         <h2 className="mt-1 text-2xl font-semibold text-rose-950">
           {t.safetyDemo.title}

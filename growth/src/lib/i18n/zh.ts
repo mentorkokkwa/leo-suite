@@ -70,9 +70,10 @@ export const zh: Dictionary = {
       "保存到本地记录",
     ],
     demoHint: "加载演示后，从「签到」→「反思」继续体验完整流程。",
-    safetyDemoLink: "安全演示（DSA 重点）",
+    safetyDemoLink: "安全护栏演示",
   },
   safetyDemo: {
+    badge: "安全工程",
     title: "安全护栏演示",
     subtitle: "展示 YouthMentor 如何在检测到高风险用语时拦截正常辅导回复。",
     whyTitle: "为什么重要",

@@ -1,16 +1,16 @@
-# NeuroSpark Suite — One-Page Portfolio
+# NeuroSpark Suite — One-Page Overview
 
 > Print: open `portfolio-one-pager.html` in Chrome → Print → Save as PDF.
 
-## Student
+## About
 
-- **Name:** [Your name]
-- **Level:** Secondary 4 · DSA Computing
-- **Portfolio:** [GitHub URL] · [Live demo URL]
+- **Name:** Liu Cenzhi
+- **Focus:** AI · full-stack · product · commercialization
+- **Links:** [github.com/mentorkokkwa](https://github.com/mentorkokkwa) · [neurospark-suite](https://github.com/mentorkokkwa/neurospark-suite)
 
 ## Elevator pitch
 
-I built **NeuroSpark Suite** — three connected apps addressing how Singapore students **learn** (EduLens), **grow** (YouthMentor), and how schools could deploy **service robots** (CampusBot). All projects use TypeScript, Next.js, and user-centred design with clear safety and privacy boundaries.
+**NeuroSpark Suite** — three connected apps for how students **learn** (EduLens), **grow** (YouthMentor), and how schools could deploy **service robots** (CampusBot). Built with TypeScript, Next.js, and user-centred design; clear safety and privacy boundaries.
 
 ## Projects
 
@@ -20,12 +20,12 @@ I built **NeuroSpark Suite** — three connected apps addressing how Singapore s
 - Multi-provider LLM with JSON validation and vision OCR
 - **Tech:** Next.js API routes, prompt builder, provider chain
 
-### YouthMentor AI — Wellbeing ★ flagship demo
+### YouthMentor AI — Wellbeing
 
 - Mood check-in → 6-step reflection → mentor response OR crisis block
 - Character chat with RAG-lite, memory, intimacy, freemium limits
 - **Safety:** keyword scan → classifier → crisis-only UI (no coaching LLM)
-- **Demo:** `/youthmentor/safety-demo`
+- **Walkthrough:** `/youthmentor/safety-demo`
 
 ### CampusBot AI — Robotics
 
@@ -33,7 +33,7 @@ I built **NeuroSpark Suite** — three connected apps addressing how Singapore s
 - Task scenarios: worksheet delivery, visitor guide, library return
 - **Tech:** grid navigation engine, metrics report
 
-## Technical skills demonstrated
+## Technical depth
 
 | Area | Evidence |
 |------|----------|
@@ -43,7 +43,7 @@ I built **NeuroSpark Suite** — three connected apps addressing how Singapore s
 | Product | User flows, demo cases, i18n (EN/ZH) |
 | Safety & ethics | Crisis guardrails, disclaimers, local-first data |
 
-## Business thinking
+## Commercial thinking
 
 - Freemium (20 msgs/day) + premium coaching packs
 - School B2B insights — anonymous aggregates, no chat text
@@ -52,14 +52,14 @@ I built **NeuroSpark Suite** — three connected apps addressing how Singapore s
 ## What I learned
 
 1. Safety cannot be an afterthought in youth AI products.
-2. Mock fallbacks let demos work without API keys — important for interviews.
-3. Three small focused apps tell a clearer story than one bloated app.
+2. Mock fallbacks keep demos reliable without API keys — good engineering hygiene.
+3. Three focused apps tell a clearer story than one bloated codebase.
 
 ## Next steps
 
-- Pilot YouthMentor insights with school counsellor (anonymous metrics)
+- Pilot YouthMentor insights with school counsellors (anonymous metrics)
 - Connect CampusBot simulator to hardware prototype
-- User testing with 10+ peers (survey template ready)
+- Expand user research beyond initial peer survey
 
 ---
 

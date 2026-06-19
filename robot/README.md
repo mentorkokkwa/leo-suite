@@ -1,6 +1,6 @@
 # CampusBot AI
 
-School service robot navigation and task execution simulator for DSA Computing, Robotics, and Science & Technology portfolios.
+School service robot navigation and task execution simulator.
 
 ## Features
 

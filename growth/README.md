@@ -28,7 +28,7 @@ A safe digital mentor prototype for student wellbeing, structured reflection, an
 | `/youthmentor/mentor-chat` | Structured mentor response + character debrief CTA |
 | `/youthmentor/action-plan` | Checklist + reflection debrief link |
 | `/youthmentor/safety` | Safety review, crisis panel, debrief link |
-| `/youthmentor/safety-demo` | **DSA demo** — guided high-risk guardrail walkthrough |
+| `/youthmentor/safety-demo` | Guided high-risk guardrail walkthrough |
 | `/youthmentor/history` | Local history with delete |
 
 ## Growth character chat features

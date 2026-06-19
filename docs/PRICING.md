@@ -1,6 +1,6 @@
 # NeuroSpark Suite — Pricing Model
 
-Prototype pricing for DSA / pitch discussions. **Not live billing** — toggle "Premium demo" in YouthMentor Settings simulates paid tier.
+Prototype pricing for product and business discussions. **Not live billing** — toggle "Premium demo" in YouthMentor Settings simulates paid tier.
 
 ## Consumer (B2C) — YouthMentor
 
@@ -20,7 +20,7 @@ Prototype pricing for DSA / pitch discussions. **Not live billing** — toggle "
 | **School** | $800 / year | Unlimited students | Scenario usage, mood trends, pack completion |
 | **District** | Custom | Multi-school | API export + counsellor training session |
 
-**Privacy principle:** School tier never receives individual chat transcripts — aligned with PDPA-minimisation narrative for interview.
+**Privacy principle:** School tier never receives individual chat transcripts — PDPA-minimisation by design.
 
 ## EduLens — EduTech
 
@@ -38,11 +38,11 @@ Prototype pricing for DSA / pitch discussions. **Not live billing** — toggle "
 | **School lab** | $2,500 one-time | Map customization + teacher workshop |
 | **Hardware kit** | $8,000+ | Future: Pi + motors + teleop (not implemented) |
 
-## Revenue logic (one sentence for interview)
+## Revenue logic (one line)
 
 > "Free tier builds habit and trust; premium unlocks depth (coaching packs, unlimited chat); schools pay for **aggregate insights** without accessing private conversations."
 
-## Cost assumptions (optional depth)
+## Cost assumptions
 
 | Item | Estimate |
 |------|----------|
@@ -50,4 +50,4 @@ Prototype pricing for DSA / pitch discussions. **Not live billing** — toggle "
 | Vercel hosting (3 apps) | $0 (hobby) → $20/mo (pro) |
 | Break-even (Premium) | ~50 paying users cover API + hosting |
 
-See [USER_SURVEY.md](USER_SURVEY.md) for willingness-to-pay signal from peer survey.
+See [USER_SURVEY.md](USER_SURVEY.md) for willingness-to-pay signals from peer research.

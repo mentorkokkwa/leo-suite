@@ -1,10 +1,10 @@
 # User Research — Template & Sample Results
 
-Use this for DSA portfolio evidence of **product thinking**. Replace sample names with real classmates if you run the survey.
+Lightweight peer research to validate problem severity and feature interest. Replace sample rows with your own respondents.
 
 ## Survey goal
 
-Validate problem severity and feature interest for YouthMentor + EduLens among Sec 3–4 students in Singapore.
+Understand exam stress, coping habits, and appetite for EduLens + YouthMentor features among Sec 3–4 peers in Singapore.
 
 ## Questionnaire (5 questions, ~3 minutes)
 
@@ -22,8 +22,8 @@ Copy to Google Forms or print on paper.
 
 1. Target **5–10 peers** (same age, mixed academic streams).  
 2. Do **not** collect full names — use initials only.  
-3. Summarize averages in portfolio; keep raw forms private if school requires.  
-4. Update the table below with your real data before interview.
+3. Summarize averages in `docs/PORTFOLIO.md` or your one-pager.  
+4. Update the table below with real data when available.
 
 ---
 
@@ -44,23 +44,23 @@ Copy to Google Forms or print on paper.
 | Avg exam stress (Q1) | **4.2 / 5** — problem is real |
 | Would try private reflection app | **3 Yes, 2 Maybe, 0 No** |
 | Top feature | AI mentor chat (2), Homework AI (1), others (2) |
-| Would pay ~$5/mo | **1 Yes, 3 Maybe, 1 No** — freemium justified |
+| Would pay ~$5/mo | **1 Yes, 3 Maybe, 1 No** — freemium model fits |
 
-## Insights for interview (talk track)
+## Product insights
 
-1. **High stress is common** — supports wellbeing product, not a niche idea.  
-2. **Phone scrolling** is the default coping behaviour — app must be as easy as opening TikTok.  
-3. **Privacy matters** — "private app" got positive signals; localStorage / no account is a feature.  
-4. **Monetization** — majority "Maybe" → free tier + premium demo is the right prototype.  
-5. **EduLens + YouthMentor** can be one suite — homework stress and emotional stress are linked.
+1. **High stress is common** — wellbeing tooling addresses a real need, not a niche.  
+2. **Phone scrolling** is the default coping behaviour — the product must be low-friction to open.  
+3. **Privacy matters** — positive signal for localStorage / no-account design.  
+4. **Monetization** — majority "Maybe" supports free tier + optional premium.  
+5. **Suite story** — homework stress and emotional stress are linked; EduLens + YouthMentor belong together.
 
 ## Ethics note
 
-- Inform participants this is student research, not clinical study.  
-- YouthMentor is **not** a counsellor replacement — state this before any wellbeing questions.  
-- If anyone discloses crisis during informal chats, follow school protocol and refer to counsellor / helpline.
+- Inform participants this is informal product research, not clinical study.  
+- YouthMentor is **not** a counsellor replacement — state this before wellbeing questions.  
+- If anyone discloses crisis during chats, follow school protocol and refer to counsellor / helpline.
 
-## Files to attach to portfolio
+## Files to keep
 
 - [ ] Google Form link (optional)  
 - [ ] Summary table (this file, updated)  

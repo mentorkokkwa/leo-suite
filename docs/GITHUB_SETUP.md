@@ -31,14 +31,14 @@ Verify `.env.local` is **not** staged.
 
 ```bash
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/neurospark-suite.git
+git remote add origin https://github.com/mentorkokkwa/neurospark-suite.git
 git push -u origin main
 ```
 
 ## Step 4 — Repository settings
 
-- **About:** add description + link to Vercel demo  
-- **Topics:** `nextjs`, `dsa`, `singapore`, `ai`, `education`, `wellbeing`  
+- **About:** short description + link to live demos  
+- **Topics:** `nextjs`, `typescript`, `ai`, `education`, `wellbeing`, `robotics`  
 - **License:** MIT (already in repo)
 
 ## What to put in README badges (optional)
@@ -50,17 +50,17 @@ git push -u origin main
 Add live demo links after Vercel deploy:
 
 ```markdown
-- [YouthMentor Live](https://your-growth.vercel.app/youthmentor)
-- [EduLens Live](https://your-edutech.vercel.app/edulens)
-- [CampusBot Live](https://your-robot.vercel.app/campusbot)
+- [YouthMentor Live](https://neurospark-suite-growth.vercel.app/youthmentor) *(update after Vercel deploy)*
+- [EduLens Live](https://neurospark-suite-edutech.vercel.app/edulens)
+- [CampusBot Live](https://neurospark-suite-robot.vercel.app/campusbot)
 ```
 
-## Interview: how to present GitHub
+## Sharing your work
 
-1. **Before interview:** send repo link in portfolio / DSA form if allowed.  
-2. **During interview:** open README → Architecture doc → one API route (e.g. safety pipeline).  
-3. **If asked "did you copy?":** walk through commit history and explain one bug you fixed.  
-4. **Private repo alternative:** grant read access to interviewer email only — public is stronger for DSA.
+1. Link README and live demos from your personal site or bio.  
+2. To explain depth: README → `docs/ARCHITECTURE.md` → one API route (e.g. safety pipeline).  
+3. Commit history shows how features evolved — walk through one meaningful change.  
+4. Public repo is usually best for open-source credibility; use a private repo only if you have a specific reason.
 
 ## Security checklist
 

@@ -60,7 +60,7 @@ flowchart TD
   BLOCK --> RES[Crisis resources + helplines]
 ```
 
-**Design decisions (for interview):**
+**Design decisions:**
 
 1. **Never rely on LLM alone for safety** — keyword layer runs first; high-risk blocks before any coaching prompt.
 2. **localStorage** — no server database for reflections; fits PDPA-minded youth products and works offline for history.

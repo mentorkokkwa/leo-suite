@@ -66,6 +66,7 @@ export type Dictionary = {
     safetyDemoLink: string;
   };
   safetyDemo: {
+    badge: string;
     title: string;
     subtitle: string;
     whyTitle: string;

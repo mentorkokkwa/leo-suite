@@ -1,6 +1,8 @@
 # NeuroSpark Suite
 
-A Singapore Sec 4 DSA Computing portfolio: three connected prototypes for **learning**, **wellbeing**, and **campus robotics**.
+**Liu Cenzhi** · [github.com/mentorkokkwa](https://github.com/mentorkokkwa)
+
+Three connected prototypes I built out of interest in **AI engineering**, **product design**, and **commercial thinking** — focused on how students **learn**, **grow**, and how schools could **serve** with campus robotics.
 
 | Project | Folder | Dev URL | Deploy path |
 |---------|--------|---------|-------------|
@@ -40,19 +42,19 @@ npm run dev
 
 Copy `edutech/.env.local.example` → `.env.local` for AI keys. Growth shares the same `EDULENS_*` variables. Without keys, **mock mode** works for demos.
 
-## DSA portfolio materials
+## Documentation
 
 | Document | Purpose |
 |----------|---------|
-| [docs/portfolio-one-pager.html](docs/portfolio-one-pager.html) | Print to PDF — 1-page portfolio for interview |
-| [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md) | 3-minute live demo script (EN + 中文) |
+| [docs/portfolio-one-pager.html](docs/portfolio-one-pager.html) | Print to PDF — one-page project overview |
+| [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md) | 3-minute product walkthrough (EN + 中文) |
 | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | System architecture diagrams |
 | [docs/PRICING.md](docs/PRICING.md) | Freemium / school pricing model |
 | [docs/USER_SURVEY.md](docs/USER_SURVEY.md) | User research template + sample results |
 | [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) | Vercel deployment guide |
 | [docs/GITHUB_SETUP.md](docs/GITHUB_SETUP.md) | Publish to GitHub safely |
 
-## Safety demo (YouthMentor highlight)
+## Safety demo (YouthMentor)
 
 1. Open http://localhost:3007/youthmentor/safety-demo  
 2. Click **Run safety demo**  
