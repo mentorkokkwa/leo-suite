@@ -1,6 +1,6 @@
 # NeuroSpark Suite
 
-**Liu Cenzhi** · [github.com/mentorkokkwa](https://github.com/mentorkokkwa)
+**Liu Cenzhi** · [github.com/mentorkokkwa](https://github.com/mentorkokkwa) · [Repository](https://github.com/amyling/neurospark-suite)
 
 Three connected prototypes I built out of interest in **AI engineering**, **product design**, and **commercial thinking** — focused on how students **learn**, **grow**, and how schools could **serve** with campus robotics.
 
