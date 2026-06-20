@@ -1,18 +1,14 @@
 # Leo Suite (meta)
 
-**Liu Cenzhi** · [github.com/mentorkokkwa](https://github.com/mentorkokkwa)
+Three **separate repositories** — one app per repo, one Vercel project per import on **vercel.com/cenzhi**.
 
-Three **separate repositories** — one app per repo, one Vercel project per import.
+| App | GitHub |
+|-----|--------|
+| **YouthMentor AI** | [leo-suite-growth](https://github.com/mentorkokkwa/leo-suite-growth) |
+| **EduLens AI** | [leo-suite-edutech](https://github.com/mentorkokkwa/leo-suite-edutech) |
+| **CampusBot AI** | [leo-suite-robot](https://github.com/mentorkokkwa/leo-suite-robot) |
 
-| App | GitHub | Vercel root |
-|-----|--------|-------------|
-| **YouthMentor AI** | [leo-suite-growth](https://github.com/mentorkokkwa/leo-suite-growth) | repo root |
-| **EduLens AI** | [leo-suite-edutech](https://github.com/mentorkokkwa/leo-suite-edutech) | repo root |
-| **CampusBot AI** | [leo-suite-robot](https://github.com/mentorkokkwa/leo-suite-robot) | repo root |
-
-**Vercel:** [vercel.com/cenzhi](https://vercel.com/cenzhi) — import each repo once (no Root Directory).
-
-> First time? See **[docs/GITHUB_SPLIT.md](docs/GITHUB_SPLIT.md)** if repos are not on mentorkokkwa yet.
+Setup: **[docs/CENZHI_SETUP.md](docs/CENZHI_SETUP.md)**
 
 ## Local dev (this folder)
 
@@ -46,8 +42,9 @@ npm run dev
 
 | Document | Purpose |
 |----------|---------|
-| [docs/GITHUB_SPLIT.md](docs/GITHUB_SPLIT.md) | Three separate GitHub repos + transfer to mentorkokkwa |
-| [docs/VERCEL_FIRST_DEPLOY.md](docs/VERCEL_FIRST_DEPLOY.md) | Deploy each repo to Vercel |
+| [docs/CENZHI_SETUP.md](docs/CENZHI_SETUP.md) | cenzhi Vercel + env vars checklist |
+| [docs/GITHUB_SPLIT.md](docs/GITHUB_SPLIT.md) | Three GitHub repos |
+| [docs/VERCEL_FIRST_DEPLOY.md](docs/VERCEL_FIRST_DEPLOY.md) | Vercel import summary |
 | [docs/portfolio-one-pager.html](docs/portfolio-one-pager.html) | One-page overview (print to PDF) |
 | [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md) | Product walkthrough script |
 | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | Architecture diagrams |

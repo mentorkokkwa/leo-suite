@@ -1,42 +1,31 @@
-# Vercel 首次部署（三个独立仓库）
+# Vercel 部署（cenzhi 账号）
 
-账号：**https://vercel.com/cenzhi**
+**Dashboard：** https://vercel.com/cenzhi
 
-每个 app 有**自己的 GitHub 仓库**，Vercel 上 **Import 一次 = 一个项目**，不需要设 Root Directory。
+三个 app 各一个 GitHub 仓库 → Vercel Import 一次 → **Root Directory 留空**。
 
-| Vercel 项目名（建议） | Import 这个仓库 |
-|----------------------|-----------------|
-| `leo-suite-growth` | https://github.com/mentorkokkwa/leo-suite-growth |
-| `leo-suite-edutech` | https://github.com/mentorkokkwa/leo-suite-edutech |
-| `leo-suite-robot` | https://github.com/mentorkokkwa/leo-suite-robot |
+| Vercel 项目 | GitHub |
+|-------------|--------|
+| leo-suite-growth | mentorkokkwa/leo-suite-growth |
+| leo-suite-edutech | mentorkokkwa/leo-suite-edutech |
+| leo-suite-robot | mentorkokkwa/leo-suite-robot |
 
----
+完整清单（含环境变量）：见 **[CENZHI_SETUP.md](CENZHI_SETUP.md)**。
 
-## 1. YouthMentor
+## 入口 URL
 
-1. https://vercel.com/new → Import **mentorkokkwa/leo-suite-growth**
-2. Root Directory：**留空**（默认仓库根目录）
-3. 环境变量：`EDULENS_AI_MODE` = `mock`
-4. Deploy  
-5. 访问：`https://你的域名/youthmentor`  
-6. 安全演示：`/youthmentor/safety-demo`
+部署完成后：
 
-## 2. EduLens
+| App | 路径 |
+|-----|------|
+| YouthMentor | `/` 或 `/youthmentor` |
+| EduLens | `/` 或 `/edulens` |
+| CampusBot | `/` 或 `/campusbot` |
 
-1. Import **mentorkokkwa/leo-suite-edutech**
-2. 环境变量：`EDULENS_AI_MODE` = `mock`
-3. 访问：`/edulens`
+域名以 cenzhi Dashboard 中 **Production** 域名为准（例如 `leo-suite-growth-*.vercel.app`）。
 
-## 3. CampusBot
+## 环境变量摘要
 
-1. Import **mentorkokkwa/leo-suite-robot**
-2. 无需 API key  
-3. 访问：`/campusbot`
-
----
-
-## 之后
-
-每次对某个仓库 `git push main`，只有对应的 Vercel 项目会重新部署。
-
-Meta 文档与作品集说明在：**https://github.com/mentorkokkwa/leo-suite**
+- **robot**：无
+- **growth / edutech**：见各仓库 `.env.example` 与 [CENZHI_SETUP.md](CENZHI_SETUP.md)
+- API key **只在 Vercel Dashboard 设置**，不要写入 GitHub
