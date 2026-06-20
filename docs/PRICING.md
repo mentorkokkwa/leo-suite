@@ -1,4 +1,4 @@
-# NeuroSpark Suite — Pricing Model
+# Leo Suite — Pricing Model
 
 Prototype pricing for product and business discussions. **Not live billing** — toggle "Premium demo" in YouthMentor Settings simulates paid tier.
 

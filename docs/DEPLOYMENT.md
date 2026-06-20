@@ -78,7 +78,7 @@ Live: [vercel.com/cenzhi](https://vercel.com/cenzhi) → **robot** project → `
 
 ## Custom domains (optional)
 
-Vercel free tier supports `*.vercel.app`. Custom domain (e.g. `neurospark.sg`) is optional.
+Vercel free tier supports `*.vercel.app`. Custom domain (e.g. `your-domain.com`) is optional.
 
 ## Troubleshooting
 

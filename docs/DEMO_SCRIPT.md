@@ -9,7 +9,7 @@ A ~3-minute walkthrough when sharing the project live or recording a demo.
 
 ### 0:00 — Hook (15 s)
 
-> "I'm Liu Cenzhi. I built **NeuroSpark Suite** — three apps around how students **learn**, **grow**, and how schools could **serve** with robots. I'll start with YouthMentor's safety layer — the part I care most about technically."
+> "I built **Leo Suite** — three apps around how students **learn**, **grow**, and how schools could **serve** with robots. I'll start with YouthMentor's safety layer — the part I care most about technically."
 
 ### 0:15 — Problem (20 s)
 
@@ -41,7 +41,7 @@ A ~3-minute walkthrough when sharing the project live or recording a demo.
 
 ### 0:00 — 开场（15 秒）
 
-> 「我是刘岑之。我做了 **NeuroSpark 套件** 三个项目：学生**学**（EduLens）、**成长**（YouthMentor）、校园**机器人**仿真（CampusBot）。先从 YouthMentor 的**安全层**讲起——这是我技术上最在意的部分。」
+> 「我做了 **Leo 套件** 三个项目：学生**学**（EduLens）、**成长**（YouthMentor）、校园**机器人**仿真（CampusBot）。先从 YouthMentor 的**安全层**讲起——这是我技术上最在意的部分。」
 
 ### 0:15 — 问题（20 秒）
 

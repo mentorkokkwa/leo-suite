@@ -1,4 +1,4 @@
-# NeuroSpark Suite — One-Page Overview
+# Leo Suite — One-Page Overview
 
 > Print: open `portfolio-one-pager.html` in Chrome → Print → Save as PDF.
 
@@ -10,7 +10,7 @@
 
 ## Elevator pitch
 
-**NeuroSpark Suite** — three connected apps for how students **learn** (EduLens), **grow** (YouthMentor), and how schools could deploy **service robots** (CampusBot). Built with TypeScript, Next.js, and user-centred design; clear safety and privacy boundaries.
+**Leo Suite** — three connected apps for how students **learn** (EduLens), **grow** (YouthMentor), and how schools could deploy **service robots** (CampusBot). Built with TypeScript, Next.js, and user-centred design; clear safety and privacy boundaries.
 
 ## Projects
 

@@ -1,4 +1,4 @@
-# NeuroSpark Suite — Architecture
+# Leo Suite — Architecture
 
 ## Suite overview
 
