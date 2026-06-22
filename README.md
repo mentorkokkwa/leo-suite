@@ -13,6 +13,8 @@ Three **separate repositories** — one app per repo, one Vercel project per imp
 A safe digital mentor for structured reflection, mood check-in, and crisis guardrails.
 
 - Layered safety: keyword scan → risk classifier → crisis-only UI (no coaching LLM on high risk)
+- Voice input on check-in, reflection, and character chat; mood trend chart on history
+- Trust metrics and responsible-AI comparison on home page; empathy-first character chat
 - Character chat with scenario simulations (labeled as AI)
 - Data stays in browser (`localStorage`)
 
@@ -28,7 +30,8 @@ A safe digital mentor for structured reflection, mood check-in, and crisis guard
 Structured homework feedback, lesson generation, mistake book, and printable reports.
 
 - Homework analyzer with marking-style JSON feedback and vision OCR
-- Syllabus-aware lesson generator with RAG-lite
+- Lesson generator: 3-part pipeline, staged loading UX, RAG sanitization, output-type filtering
+- Shareable lesson reports with localStorage cache; subject-aware diagram rendering
 - Multi-provider LLM chain with Zod validation and mock fallback
 
 | | |

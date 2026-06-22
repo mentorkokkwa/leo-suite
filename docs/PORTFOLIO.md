@@ -17,13 +17,15 @@
 ### EduLens AI — Learning
 
 - Homework analyzer with marking-style feedback, mistake book, lesson generator
+- 3-part lesson pipeline with staged loading, RAG citation cleanup, and output-type filtering
 - Multi-provider LLM with JSON validation and vision OCR
 - **Tech:** Next.js API routes, prompt builder, provider chain
 
 ### YouthMentor AI — Wellbeing
 
 - Mood check-in → 6-step reflection → mentor response OR crisis block
-- Character chat with RAG-lite, memory, intimacy, freemium limits
+- Voice input, mood trend chart, trust metrics vs engagement-first AI companions
+- Character chat with empathy-first protocol, RAG-lite, memory, intimacy, freemium limits
 - **Safety:** keyword scan → classifier → crisis-only UI (no coaching LLM)
 - **Walkthrough:** `/youthmentor/safety-demo`
 
