@@ -2,6 +2,55 @@
 
 Three **separate repositories** — one app per repo, one Vercel project per import on **vercel.com/cenzhi**.
 
+**Author:** Liu Cenzhi · [github.com/mentorkokkwa](https://github.com/mentorkokkwa)
+
+---
+
+## The three apps
+
+### YouthMentor AI — Student wellbeing & safety
+
+A safe digital mentor for structured reflection, mood check-in, and crisis guardrails.
+
+- Layered safety: keyword scan → risk classifier → crisis-only UI (no coaching LLM on high risk)
+- Character chat with scenario simulations (labeled as AI)
+- Data stays in browser (`localStorage`)
+
+| | |
+|--|--|
+| **Live demo** | https://leo-suite-growth-swart.vercel.app/youthmentor |
+| **Safety walkthrough** | https://leo-suite-growth-swart.vercel.app/youthmentor/safety-demo |
+| **Private source** | [leo-suite-growth](https://github.com/mentorkokkwa/leo-suite-growth) |
+| **Public showcase** | [leo-suite-growth-showcase](https://github.com/mentorkokkwa/leo-suite-growth-showcase) |
+
+### EduLens AI — Teaching & learning assistant
+
+Structured homework feedback, lesson generation, mistake book, and printable reports.
+
+- Homework analyzer with marking-style JSON feedback and vision OCR
+- Syllabus-aware lesson generator with RAG-lite
+- Multi-provider LLM chain with Zod validation and mock fallback
+
+| | |
+|--|--|
+| **Live demo** | https://leo-suite-edutech-six.vercel.app/edulens |
+| **Homework analyzer** | https://leo-suite-edutech-six.vercel.app/edulens/homework-analyzer |
+| **Lesson generator** | https://leo-suite-edutech-six.vercel.app/edulens/lesson-generator |
+| **Private source** | [leo-suite-edutech](https://github.com/mentorkokkwa/leo-suite-edutech) |
+| **Public showcase** | [leo-suite-edutech-showcase](https://github.com/mentorkokkwa/leo-suite-edutech-showcase) |
+
+### CampusBot AI — School service robot simulator
+
+Client-side school map simulator with A* path planning and task scenarios.
+
+| | |
+|--|--|
+| **Live demo** | https://leo-suite-robot.vercel.app/campusbot |
+| **Simulator** | https://leo-suite-robot.vercel.app/campusbot/simulator |
+| **Source (public)** | [leo-suite-robot](https://github.com/mentorkokkwa/leo-suite-robot) |
+
+---
+
 ## Repository map
 
 | App | Private deploy | Public showcase | Vercel |
@@ -12,19 +61,23 @@ Three **separate repositories** — one app per repo, one Vercel project per imp
 
 **Setup:** [docs/PRIVATE_PUBLIC_REPOS.md](docs/PRIVATE_PUBLIC_REPOS.md) · [docs/CENZHI_SETUP.md](docs/CENZHI_SETUP.md)
 
-## Live Demo (Vercel Production)
+---
 
-| App | URL |
-|-----|-----|
-| **YouthMentor AI** | https://leo-suite-growth-swart.vercel.app/youthmentor |
-| **EduLens AI** | https://leo-suite-edutech-six.vercel.app/edulens |
-| **CampusBot AI** | https://leo-suite-robot.vercel.app/campusbot |
+## Portfolio & documentation
 
-| App | Key paths |
-|-----|-----------|
-| YouthMentor | [/safety-demo](https://leo-suite-growth-swart.vercel.app/youthmentor/safety-demo) · [/characters](https://leo-suite-growth-swart.vercel.app/youthmentor/characters) |
-| EduLens | [/homework-analyzer](https://leo-suite-edutech-six.vercel.app/edulens/homework-analyzer) · [/lesson-generator](https://leo-suite-edutech-six.vercel.app/edulens/lesson-generator) |
-| CampusBot | [/simulator](https://leo-suite-robot.vercel.app/campusbot/simulator) |
+| Document | Description |
+|----------|-------------|
+| [docs/portfolio_full.md](docs/portfolio_full.md) | **Full EduLens portfolio (~10 pages)** — DSA-JC project write-up |
+| [docs/PORTFOLIO.md](docs/PORTFOLIO.md) | One-page Leo Suite overview |
+| [docs/portfolio-one-pager.html](docs/portfolio-one-pager.html) | Printable one-pager (Save as PDF) |
+| [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md) | Product walkthrough script |
+| [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | Architecture diagrams (all apps) |
+| [docs/PRIVATE_PUBLIC_REPOS.md](docs/PRIVATE_PUBLIC_REPOS.md) | Private deploy + public showcase strategy |
+| [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) | Full Vercel deployment guide |
+
+Per-app docs live in each **showcase** repo (`docs/product_overview.md`, `docs/safety_design.md`, etc.).
+
+---
 
 ## Local dev (this folder)
 
@@ -54,19 +107,7 @@ npm run dev
 | EduLens | 3006 | http://localhost:3006/edulens |
 | CampusBot | 3002 | http://localhost:3002/campusbot |
 
-## Docs
-
-| Document | Purpose |
-|----------|---------|
-| [docs/PRIVATE_PUBLIC_REPOS.md](docs/PRIVATE_PUBLIC_REPOS.md) | Private deploy + public showcase repos |
-| [docs/DEPLOYMENT_CURSOR_CODEX.md](docs/DEPLOYMENT_CURSOR_CODEX.md) | Cursor / Codex deployment rule |
-| [docs/CENZHI_SETUP.md](docs/CENZHI_SETUP.md) | cenzhi Vercel + env vars checklist |
-| [docs/GITHUB_SPLIT.md](docs/GITHUB_SPLIT.md) | GitHub repo map |
-| [docs/VERCEL_FIRST_DEPLOY.md](docs/VERCEL_FIRST_DEPLOY.md) | Vercel import summary |
-| [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) | Full deployment guide |
-| [docs/portfolio-one-pager.html](docs/portfolio-one-pager.html) | One-page overview (print to PDF) |
-| [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md) | Product walkthrough script |
-| [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | Architecture diagrams |
+---
 
 ## Showcase templates
 
@@ -77,6 +118,8 @@ showcase/leo-suite-growth-showcase/
 showcase/leo-suite-edutech-showcase/
 showcase/init-showcase-repos.ps1
 ```
+
+---
 
 ## License
 

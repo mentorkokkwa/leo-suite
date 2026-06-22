@@ -115,13 +115,13 @@ cd showcase
 
 ## Step 4 — Fill in live demo URLs
 
-After Vercel deploy, update showcase README files:
+After Vercel deploy, update **leo-suite meta repo** README with production URLs for all three apps. Each individual app / showcase repo should only list its **own** demo links.
 
-| App | Production URL pattern |
-|-----|------------------------|
+| App | Production URL |
+|-----|----------------|
 | YouthMentor | `https://leo-suite-growth-swart.vercel.app/youthmentor` |
 | EduLens | `https://leo-suite-edutech-six.vercel.app/edulens` |
-| CampusBot (public) | `https://leo-suite-robot.vercel.app/campusbot` |
+| CampusBot | `https://leo-suite-robot.vercel.app/campusbot` |
 
 Copy exact domains from [vercel.com/cenzhi](https://vercel.com/cenzhi) → project → **Domains**.
 
